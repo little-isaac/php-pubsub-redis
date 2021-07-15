@@ -2,7 +2,7 @@
 
 ## 2.0.0 - 2017-05-16
 
-* Bump up to superbalist/php-pubsub ^2.0
+* Bump up to milind/php-pubsub ^2.0
 * Add new publishBatch method to RedisPubSubAdapter
 
 ## 1.0.1 - 2016-09-09

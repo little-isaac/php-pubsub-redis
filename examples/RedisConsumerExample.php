@@ -10,7 +10,7 @@ $client = new Predis\Client([
     'read_write_timeout' => 0,
 ]);
 
-$adapter = new \Superbalist\PubSub\Redis\RedisPubSubAdapter($client);
+$adapter = new \milind\PubSub\Redis\RedisPubSubAdapter($client);
 
 $adapter->subscribe('my_channel', function ($message) {
     var_dump($message);

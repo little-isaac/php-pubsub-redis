@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Superbalist\\PubSub\\Redis\\": "src/",
+      "milind\\PubSub\\Redis\\": "src/",
       "Tests\\": "tests/"
     }
   },

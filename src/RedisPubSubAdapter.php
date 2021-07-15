@@ -1,10 +1,10 @@
 <?php
 
-namespace Superbalist\PubSub\Redis;
+namespace milind\PubSub\Redis;
 
 use Predis\Client;
-use Superbalist\PubSub\PubSubAdapterInterface;
-use Superbalist\PubSub\Utils;
+use milind\PubSub\PubSubAdapterInterface;
+use milind\PubSub\Utils;
 
 class RedisPubSubAdapter implements PubSubAdapterInterface
 {

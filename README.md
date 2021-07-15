@@ -1,19 +1,19 @@
 # php-pubsub-redis
 
-A Redis adapter for the [php-pubsub](https://github.com/Superbalist/php-pubsub) package.
+A Redis adapter for the [php-pubsub](https://github.com/milind/php-pubsub) package.
 
-[![Author](http://img.shields.io/badge/author-@superbalist-blue.svg?style=flat-square)](https://twitter.com/superbalist)
-[![Build Status](https://img.shields.io/travis/Superbalist/php-pubsub-redis/master.svg?style=flat-square)](https://travis-ci.org/Superbalist/php-pubsub-redis)
+[![Author](http://img.shields.io/badge/author-@milind-blue.svg?style=flat-square)](https://twitter.com/milind)
+[![Build Status](https://img.shields.io/travis/milind/php-pubsub-redis/master.svg?style=flat-square)](https://travis-ci.org/milind/php-pubsub-redis)
 [![StyleCI](https://styleci.io/repos/67252513/shield?branch=master)](https://styleci.io/repos/67252513)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Packagist Version](https://img.shields.io/packagist/v/superbalist/php-pubsub-redis.svg?style=flat-square)](https://packagist.org/packages/superbalist/php-pubsub-redis)
-[![Total Downloads](https://img.shields.io/packagist/dt/superbalist/php-pubsub-redis.svg?style=flat-square)](https://packagist.org/packages/superbalist/php-pubsub-redis)
+[![Packagist Version](https://img.shields.io/packagist/v/milind/php-pubsub-redis.svg?style=flat-square)](https://packagist.org/packages/milind/php-pubsub-redis)
+[![Total Downloads](https://img.shields.io/packagist/dt/milind/php-pubsub-redis.svg?style=flat-square)](https://packagist.org/packages/milind/php-pubsub-redis)
 
 
 ## Installation
 
 ```bash
-composer require superbalist/php-pubsub-redis
+composer require milind/php-pubsub-redis
 ```
     
 ## Usage
@@ -27,7 +27,7 @@ $client = new Predis\Client([
     'read_write_timeout' => 0
 ]);
 
-$adapter = new \Superbalist\PubSub\Redis\RedisPubSubAdapter($client);
+$adapter = new \milind\PubSub\Redis\RedisPubSubAdapter($client);
 
 // consume messages
 // note: this is a blocking call

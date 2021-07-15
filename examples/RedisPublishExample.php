@@ -10,7 +10,7 @@ $client = new Predis\Client([
     'read_write_timeout' => 0,
 ]);
 
-$adapter = new \Superbalist\PubSub\Redis\RedisPubSubAdapter($client);
+$adapter = new \milind\PubSub\Redis\RedisPubSubAdapter($client);
 
 $adapter->publish('my_channel', 'HELLO WORLD');
 $adapter->publish('my_channel', ['hello' => 'world']);

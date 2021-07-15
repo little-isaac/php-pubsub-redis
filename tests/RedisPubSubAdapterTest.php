@@ -5,7 +5,7 @@ namespace Tests;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use Predis\Client;
-use Superbalist\PubSub\Redis\RedisPubSubAdapter;
+use milind\PubSub\Redis\RedisPubSubAdapter;
 
 class RedisPubSubAdapterTest extends TestCase
 {
